@@ -1,0 +1,32 @@
+.wrap {
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #131314;
+    cursor: pointer;
+}
+
+.wrap:hover {
+    background-color: #222529;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.text {
+    max-width: 200px;
+    margin: 0 0 0 10px;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #AAAAAA;
+    pointer-events: none;
+}

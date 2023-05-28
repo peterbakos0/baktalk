@@ -1,0 +1,5 @@
+{
+    "apiHost": "localhost",
+    "apiPort": 3000,
+    "apiSecure": false
+}

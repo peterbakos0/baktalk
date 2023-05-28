@@ -1,0 +1,37 @@
+.wrap {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checkBox {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #131314;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #212326;
+}
+
+.disabledCheckBox {
+    cursor: default;
+}
+
+.enabledCheckBox {
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    margin: 0 0 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #AAAAAA;
+}

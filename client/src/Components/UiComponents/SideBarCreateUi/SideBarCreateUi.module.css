@@ -1,0 +1,40 @@
+.wrap {
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+    border: 1px solid #131314;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #26292E;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.textBox {
+    width: calc(100% - 30px);
+    height: auto;
+    border: none;
+    font-size: 16px;
+    color: #AAAAAA;
+    background-color: transparent;
+}
+
+.submit {
+    margin: 0 0 0 10px;
+    padding: 0;
+    border: none;
+    font-size: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.submit img {
+    width: 20px;
+    height: 20px;
+}

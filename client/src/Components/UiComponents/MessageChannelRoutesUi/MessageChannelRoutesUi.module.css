@@ -1,0 +1,7 @@
+.wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: calc(100% - 360px);
+    height: 100%;
+}

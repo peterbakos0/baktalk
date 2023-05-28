@@ -1,0 +1,12 @@
+.wrap {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.menuLink {
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+}

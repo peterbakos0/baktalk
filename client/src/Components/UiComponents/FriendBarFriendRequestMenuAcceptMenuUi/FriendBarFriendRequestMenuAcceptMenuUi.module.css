@@ -1,0 +1,14 @@
+.wrap {
+    font-size: 0;
+    cursor: pointer;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icon:hover {
+    width: 24px;
+    height: 24px;
+}

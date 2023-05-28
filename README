@@ -1,0 +1,14 @@
+BAKTALK
+A simpler, self hostable alternative to Discord.
+
+Steps to set it up:
+ - Install Docker on your system
+ - Add api/.env file with a single line that begins with "TOKEN_SECRET=" and whatever token secret following it that you want your instance to use (it's recommended to be long)
+ - Edit the corsOrigin field in api/constants/config.json to match your web address (the beginning of whatever url the browser's address bar will display)
+ - Edit client/src/baktalk-core/constants/config.json to match the API's availability
+ - Enter api/scripts directory, then run ./build.sh followed by ./run.sh
+ - Repeat the last step, but first enter the client/scripts directory instead
+ - If this is going to be a public instance, it's recommended to use https and a reverse proxy, like nginx
+
+Enjoy chatting with your friends :)
+

@@ -1,0 +1,149 @@
+.wrap {
+    width: 100%;
+    height: auto;
+    padding: 0 18px;
+    box-sizing: border-box;
+}
+
+.wrap:hover {
+    background-color: #1B1C1F;
+}
+
+.wrap:hover .showOptions {
+    visibility: visible;
+}
+
+.wrap:hover .noAuthorTime {
+    visibility: visible;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.rightBottom {
+    width: calc(100% - 50px);
+    height: auto;
+    margin: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topRightBottom {
+    width: 100%;
+    height: auto;
+    margin: 0 0 3px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftTopRightBottom {
+    width: calc(100% - 32px);
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.noAuthorContainer {
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftTop {
+    width: calc(100% - 32px);
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.authorName {
+    font-size: 15px;
+    font-weight: 600;
+    color: #AAAAAA;
+}
+
+.time, .noAuthorTime {
+    white-space: nowrap;
+    color: #888888;
+}
+
+.time {
+    margin: 0 0 0 5px;
+    font-size: 12px;
+}
+
+.noAuthorTime {
+    width: 40px;
+    height: auto;
+    margin: 0 10px 0 0;
+    visibility: hidden;
+    font-size: 10px;
+}
+
+.text, .noAuthorText {
+    height: auto;
+    line-height: 24px;
+    font-size: 16px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    color: #AAAAAA;
+}
+
+.text:empty, .noAuthorText:empty {
+    display: none;
+}
+
+.text {
+    width: 100%;
+}
+
+.noAuthorText {
+    width: calc(100% - 50px);
+}
+
+.emoji {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    user-select: all;
+}
+
+.link {
+    text-decoration: none;
+    color: #5599FF;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.showOptions {
+    visibility: hidden;
+}

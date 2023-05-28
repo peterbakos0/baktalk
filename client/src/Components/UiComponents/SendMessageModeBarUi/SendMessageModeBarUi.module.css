@@ -1,0 +1,50 @@
+.wrap {
+    width: 100%;
+    height: auto;
+    padding: 12px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #191A1C;
+}
+
+.left {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.text {
+    margin: 0 0 0 10px;
+    font-size: 15px;
+    color: #AAAAAA;
+}
+
+.replyText span {
+    font-weight: 600;
+}
+
+.editText {
+    max-width: 500px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.editText span {
+    font-style: italic;
+}
+
+.close {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}

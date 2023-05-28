@@ -1,0 +1,17 @@
+.copy {
+    position: fixed;
+    left: -1000px;
+    top: -1000px;
+    z-index: -1000;
+    border: none;
+    outline: none;
+    font-size: 1px;
+    color: transparent;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+.copy::selection {
+    color: transparent;
+    background-color: transparent;
+}

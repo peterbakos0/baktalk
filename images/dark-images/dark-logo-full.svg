@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400pt"
+   height="100pt"
+   viewBox="0 0 141.11111 35.277777"
+   version="1.1"
+   id="svg72"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="dark-logo-full.svg">
+  <defs
+     id="defs66" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="219.90475"
+     inkscape:cy="61.451557"
+     inkscape:document-units="pt"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="pt"
+     inkscape:window-width="1918"
+     inkscape:window-height="1042"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
+  <metadata
+     id="metadata69">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-261.72223)">
+    <g
+       id="g841">
+      <text
+         transform="scale(0.99848869,1.0015136)"
+         id="text72"
+         y="288.06931"
+         x="92.804565"
+         style="font-style:normal;font-weight:normal;font-size:25.9349px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:5.83051"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.9349px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:5.83051"
+           y="288.06931"
+           x="92.804565"
+           id="tspan70"
+           sodipodi:role="line">BakTalk</tspan></text>
+      <g
+         id="g840">
+        <path
+           sodipodi:nodetypes="cccc"
+           inkscape:connector-curvature="0"
+           id="path56"
+           d="m 7.0555561,295.23622 v -7.05564 H 24.695164 Z"
+           inkscape:transform-center-y="1.8296476"
+           inkscape:transform-center-x="0.033409621"
+           style="fill:#4fbf65;fill-opacity:1;stroke:#4fbf65;stroke-width:3.52778;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           id="rect823"
+           d="M 3.5279502,261.72224 C 1.5735613,261.72224 0,263.2958 0,265.25019 v 21.16667 c 0,1.95439 1.5735613,3.52743 3.5279502,3.52743 H 31.750002 c 1.95439,0 3.527949,-1.57304 3.527949,-3.52743 v -21.16667 c 0,-1.95439 -1.573559,-3.52795 -3.527949,-3.52795 z m 14.1107678,6.17378 a 5.291667,5.291667 0 0 1 5.291667,5.29167 5.291667,5.291667 0 0 1 -2.645834,4.57492 v 4.24418 c 0,0.97719 -0.786522,1.76423 -1.763717,1.76423 h -1.763716 c -0.977194,0 -1.764234,-0.78704 -1.764234,-1.76423 v -4.24212 a 5.291667,5.291667 0 0 1 -2.645833,-4.57698 5.291667,5.291667 0 0 1 5.291667,-5.29167 z"
+           style="fill:#4fbf65;fill-opacity:1;stroke:none;stroke-width:3.52778;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>

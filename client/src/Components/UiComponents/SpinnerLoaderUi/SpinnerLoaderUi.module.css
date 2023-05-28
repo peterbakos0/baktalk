@@ -1,0 +1,26 @@
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    width: 16px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-top: 2px solid #5599FF;
+    border-radius: 50%;
+    animation: spinner_load 1000ms infinite;
+}
+
+@keyframes spinner_load {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

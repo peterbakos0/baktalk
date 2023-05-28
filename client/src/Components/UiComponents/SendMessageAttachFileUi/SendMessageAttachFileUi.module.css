@@ -1,0 +1,11 @@
+.wrap {
+    margin: 0 25px 0 0;
+    flex: 0 0 auto;
+    font-size: 0;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

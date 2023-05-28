@@ -1,0 +1,19 @@
+.wrap {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon {
+    width: 14px;
+    height: 14px;
+}
+
+.text {
+    margin: 0 0 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E6E6E6;
+}

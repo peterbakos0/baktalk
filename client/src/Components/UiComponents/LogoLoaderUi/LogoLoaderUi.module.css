@@ -1,0 +1,39 @@
+.wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #17181A;
+}
+
+.logo {
+    width: 96px;
+    height: 96px;
+    animation: logo_load 1000ms infinite;
+}
+
+@keyframes logo_load {
+    60% {
+        width: 128px;
+        height: 128px;
+    }
+
+    80% {
+        width: 96px;
+        height: 96px;
+    }
+
+    90% {
+        width: 112px;
+        height: 112px;
+    }
+
+    100% {
+        width: 96px;
+        height: 96px;
+    }
+}

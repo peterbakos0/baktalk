@@ -1,0 +1,60 @@
+.form {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #131314;
+    background-color: #17181A;
+}
+
+.top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bottomTop {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+}
+
+.username {
+    margin: 0 0 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E6E6E6;
+}
+
+.middle {
+    width: 100%;
+    height: auto;
+    margin: 40px 0 -10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.middle:empty {
+    display: none;
+}
+
+.bottom {
+    width: 100%;
+    height: auto;
+    margin: 30px 0 -10px 0;
+}
+
+.bottom:empty {
+    display: none;
+}

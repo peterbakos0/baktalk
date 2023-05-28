@@ -1,0 +1,44 @@
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    margin: 0 2px;
+    border-radius: 50%;
+    animation: dot_load 1000ms infinite;
+}
+
+.dot1 {
+    animation-delay: 0;
+}
+
+.dot2 {
+    animation-delay: 250ms;
+}
+
+.dot3 {
+    animation-delay: 500ms;
+}
+
+@keyframes dot_load {
+    0% {
+        width: 4px;
+        height: 4px;
+    }
+
+    50% {
+        width: 12px;
+        height: 12px;
+    }
+
+    100% {
+        width: 4px;
+        height: 4px;
+    }
+}

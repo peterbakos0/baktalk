@@ -1,0 +1,17 @@
+.wrap {
+    width: 100%;
+    height: auto;
+}
+
+.wrap:hover .menus {
+    visibility: visible;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.menus {
+    visibility: hidden;
+}

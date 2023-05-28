@@ -1,0 +1,6 @@
+.container {
+    width: 280px;
+    height: 356px;
+    display: flex;
+    background-color: #212326;
+}

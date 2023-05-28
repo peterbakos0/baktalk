@@ -1,0 +1,23 @@
+{
+    "name": "baktalk-api",
+    "version": "1.0.0",
+    "description": "The API of BakTalk.",
+    "main": "api.js",
+    "scripts": {
+        "start": "node api.js",
+        "dev": "nodemon api.js"
+    },
+    "author": "Peter Bakos",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "http-proxy": "^1.18.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.10.13",
+        "multer": "^1.4.2",
+        "peer": "^0.6.1",
+        "socket.io": "^4.1.3"
+    }
+}

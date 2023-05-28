@@ -1,0 +1,9 @@
+.wrap {
+    width: 100%;
+    height: auto;
+    margin: 30px 0 0 0;
+    flex: 0 0 auto;
+    border: 1px solid #131314;
+    border-radius: 10px;
+    background-color: #26292E;
+}

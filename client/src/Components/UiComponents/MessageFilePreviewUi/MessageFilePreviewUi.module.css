@@ -1,0 +1,11 @@
+.wrap {
+    min-width: fit-content;
+    max-width: 480px;
+    flex: 0 0 auto;
+    font-size: 0;
+}
+
+.imageLink {
+    width: 100%;
+    height: auto;
+}

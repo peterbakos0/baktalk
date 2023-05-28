@@ -1,0 +1,42 @@
+.form {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #131314;
+    background-color: #17181A;
+}
+
+.top {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.rightTop {
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0 0 30px;
+}
+
+.bottom {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 -10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.bottom:empty {
+    display: none;
+}
+
+.submitContainer {
+    width: calc((100% - 20px) / 2);
+    height: auto;
+}

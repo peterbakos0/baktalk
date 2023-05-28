@@ -1,0 +1,9 @@
+{
+    "mongoDbUri": "mongodb://baktalk-api-mongo-container:27017/baktalkapidevdb",
+    "corsOrigin": "http://localhost:3003",
+    "socketPath": "/socket",
+    "peerPath": "/peer",
+    "port": 3000,
+    "socketPort": 3001,
+    "peerPort": 3002
+}

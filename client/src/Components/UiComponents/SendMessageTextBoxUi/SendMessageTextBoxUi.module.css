@@ -1,0 +1,17 @@
+.wrap {
+    margin: 20px 0;
+    flex: 1 1 auto;
+}
+
+.textBox {
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: none;
+    overflow: auto;
+    color: #AAAAAA;
+    background-color: transparent;
+}

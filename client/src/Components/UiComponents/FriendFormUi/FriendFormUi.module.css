@@ -1,0 +1,30 @@
+.form {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #131314;
+    text-align: center;
+    background-color: #17181A;
+}
+
+.middle {
+    margin: 20px 0 60px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+}
+
+.username {
+    margin: 0 0 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E6E6E6;
+}

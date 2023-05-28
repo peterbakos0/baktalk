@@ -1,0 +1,29 @@
+.wrap {
+    margin: 0 5px 5px 0;
+    padding: 8px;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.addedReaction {
+    border: 1px solid #5599FF;
+    background-color: #202730;
+}
+
+.notAddedReaction {
+    border: 1px solid #333333;
+    background-color: #1E2022;
+}
+
+.emoji {
+    width: 18px;
+    height: 18px;
+}
+
+.count {
+    margin: 0 0 0 5px;
+    font-size: 13px;
+    color: #AAAAAA;
+    pointer-events: none;
+}

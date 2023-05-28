@@ -1,0 +1,7 @@
+.wrap {
+    width: 100%;
+    height: calc(100% - 94px);
+    margin: 30px 0 0 0;
+    border-radius: 10px;
+    overflow: auto;
+}

@@ -1,0 +1,8 @@
+.wrap {
+    position: fixed;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #131314;
+    overflow: hidden;
+    background-color: #131314;
+}

@@ -1,0 +1,15 @@
+.wrap {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.showAuthor {
+    width: 100%;
+    margin: 5px -5px -5px 0;
+}
+
+.noAuthor {
+    width: calc(100% - 50px);
+    margin: 5px -5px -5px 50px;
+}

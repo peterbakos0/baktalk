@@ -1,0 +1,27 @@
+.wrap {
+    width: 100%;
+    height: auto;
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.submit {
+    margin: 0 25px;
+    padding: 0;
+    flex: 0 0 auto;
+    border: none;
+    font-size: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.submit img {
+    width: 20px;
+    height: 20px;
+}

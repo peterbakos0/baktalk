@@ -1,0 +1,10 @@
+.wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 360px;
+    height: 100%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background-color: #17181A;
+}

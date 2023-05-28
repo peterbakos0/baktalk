@@ -1,0 +1,49 @@
+.form {
+    padding: 60px 60px 50px 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px #131314;
+    background-color: #17181A;
+}
+
+.top {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.rightTop {
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0 0 30px;
+}
+
+.middle {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    width: 100%;
+    height: auto;
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBottom {
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}

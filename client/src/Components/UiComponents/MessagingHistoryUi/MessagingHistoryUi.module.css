@@ -1,0 +1,36 @@
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1 1 auto;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.space {
+    margin: 5px 0;
+}
+
+.dateLine {
+    width: 100%;
+    height: 1px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+
+.dateLine label {
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #888888;
+    background-color: #1D1F21;
+}
+
+.spinnerLoaderContainer {
+    width: 100%;
+    height: 75px;
+}

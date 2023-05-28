@@ -1,0 +1,12 @@
+.wrap {
+    font-size: 0;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}

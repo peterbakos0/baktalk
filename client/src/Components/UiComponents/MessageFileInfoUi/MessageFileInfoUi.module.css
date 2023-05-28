@@ -1,0 +1,30 @@
+.wrap {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 auto;
+    background-color: #17181A;
+}
+
+.left {
+    margin: 0 10px 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fileIcon {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
+
+.filename {
+    max-width: 300px;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #AAAAAA;
+}
